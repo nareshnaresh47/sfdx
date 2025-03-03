@@ -51,7 +51,7 @@ public with sharing class BotController {
                 }
             }
             
-            return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer thattttttttt'));
+            return new BotResponse(new BotMessage('Bot', 'Changed By Vamsi'));
             
         } catch (Exception e) {
             System.debug(e);                
